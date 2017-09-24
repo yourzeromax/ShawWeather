@@ -1,14 +1,11 @@
 package com.example.shawweather;
 
 import android.content.Intent;
-import android.os.Handler;
-import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
-
-import java.lang.ref.WeakReference;
 
 public class FirstActivity extends AppCompatActivity {
     private static final String TAG = FirstActivity.class.getSimpleName();
